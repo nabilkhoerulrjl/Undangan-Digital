@@ -398,6 +398,13 @@ body {
     margin: 0 auto;
 }
 
+.carousel-indicators {
+    display: flex;
+    justify-content: center; /* Pusatkan tombol secara horizontal */
+    gap: 10px; /* Jarak antar tombol */
+    margin-top: 10px;
+}
+
 .carousel-inner {
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -552,23 +559,63 @@ body {
 }
 
 .character-1 {
-    top: 10%;
+    top: 8%;
     left: 5%;
 }
 
 .character-2 {
-    top: 15%;
+    top: 10%;
     right: 5%;
 }
 
 .character-3 {
-    bottom: 10%;
+    bottom: 1%;
     left: 7%;
 }
 
 .character-4 {
-    bottom: 15%;
+    bottom: 3%;
     right: 7%;
+}
+
+.character-5 {
+    top: 11%;
+    left: 5%;
+}
+
+.character-6 {
+    bottom: 5%;
+    right: 7%;
+}
+
+.character-7 {
+    top: 1%;
+    left: 7%;
+}
+
+.character-8 {
+    bottom: 0%;
+    right: 7%;
+}
+
+.character-9 {
+    top: 12%;
+    left: 5%;
+}
+
+.character-10 {
+    bottom: 10%;
+    right: 5%;
+}
+
+.character-11 {
+    top: 1%;
+    left: 5%;
+}
+
+.character-12 {
+    top: 6%;
+    right: 5%;
 }
 
 /* Footer */
@@ -697,6 +744,7 @@ body {
     }
     
     .btn {
+        margin: 0px 9%;
         padding: 12px 20px;
         font-size: 0.9rem;
     }
