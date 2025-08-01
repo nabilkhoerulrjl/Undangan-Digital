@@ -150,3 +150,14 @@
                 });
             });
         });
+
+            // Ambil parameter dari URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const name = urlParams.get('name');
+
+    // Jika ada nama, tampilkan di elemen
+    if (name) {
+        const guestNameElement = document.getElementById('guestName');
+        guestNameElement.textContent = `Untuk ${decodeURIComponent(name)}`;
+    }
+
